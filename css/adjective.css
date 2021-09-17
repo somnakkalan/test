@@ -1,0 +1,111 @@
+body{
+    background: rgb(239, 239, 241);
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.first{
+    display:flex;
+   
+}
+.container{
+    background-color: gray;
+    height: 100px;
+    padding: 25px;
+    display: grid; 
+           
+}
+.menu{
+     display: flex;
+     justify-content: flex-end;
+}
+.menu ul{
+    list-style:none;
+    display: flex;
+
+}
+.menu ul li{
+    padding: 30px;
+    font-size: 25px;
+    text-transform: capitalize;
+    
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+.menu ul li:hover{
+    background: rgb(41, 39, 39);
+    padding: 20px;
+    border-radius: 20px;
+}
+.logo{
+    position: absolute;
+    float: left;
+    border: solid blue;
+    top: 20px;
+    left: 25px;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    
+}
+                                                                               /*  */
+.list{
+    margin: 10px;
+    background: blue;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    
+   
+}
+.list ul{
+   list-style-type: none;
+   display: block;
+
+    
+}
+.list ul li {
+    padding: 10px;
+    font-size: 25px;
+    
+    
+}
+.list ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    
+
+}
+.list ul li a:hover{
+    color:purple;
+   
+}
+/* /                                                                                          / */
+footer{
+    text-align: center;
+    font: 25px;
+    padding: 25px;
+    background-color: rgb(177, 165, 165);
+    margin: 10px;
+}
+.second-1{
+    background: grey;
+    margin-top: 16px;
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.second-style-1{
+    margin:20px;
+}
