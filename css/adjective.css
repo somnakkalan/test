@@ -5,6 +5,14 @@ body{
     
     
 }
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    padding: 20px;
+    
+}
 
 .first{
     display:flex;
